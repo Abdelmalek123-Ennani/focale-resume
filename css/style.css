@@ -1,0 +1,612 @@
+
+* {
+    box-sizing: border-box !important;
+}
+ 
+:root {
+   --green-color : #2ecc71;
+   --gray : #566366;
+}
+
+
+.theTop {
+    background-image: url(../images/img.jpeg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.theTop h1{
+    border-top: Solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+.theTop button{
+    padding: 10px 20px;
+}
+
+
+.theTop button:hover{
+    color: #333 !important;
+}
+
+
+.navbar-brand:first-child {
+    margin-right: 200px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-brand:first-child .f{
+    color: white;
+    background-color: #4b5456;
+    padding: 3px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+
+.cal {
+    color: #2ecc71;
+    background-color: none;
+}
+
+.navbar li a {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.navbar li a:hover {
+    color: #2ecc71 !important;
+}
+
+.areas {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.areas h6 {
+    color: var(--gray);
+    margin-bottom: 25px;
+    font-size: 24Px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) { 
+    .theTop h1{
+        font-size: 30px;
+    }
+  }
+
+.areas p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 16Px;
+    color: #6c757da1;
+    margin-bottom: 40px;
+}
+
+
+.about-me .img img {
+    width: 110%;
+    height: 540px;
+}
+
+@media (max-width: 992px) { 
+    .about-me .img img {
+        width: 100%;
+        height: 540px;
+    }
+ }
+/*the enter part*/
+
+.second {
+    padding-top: 50px;
+    padding-left: 60px !important;
+    background-color: #f2f2f1;
+}
+
+.second h5 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30Px;
+}
+
+.second > p {
+    font-size: 14px;
+    width: 90%;
+    color: #a7a7a7;
+}
+
+.enter {
+    margin-top: 50Px;
+}
+
+
+.enter .icon {
+    float: left;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.enter h6 {
+    font-weight: 600;
+}
+
+.enter p {
+    font-size: 13px;
+    color: var(--gray);
+}
+
+.enter .content {
+    margin-bottom: 40px;
+}
+
+.enter i {
+    color: var(--green-color);
+}
+
+
+@media (max-width: 576px) { 
+    .enter .icon {
+        float: left;
+        height: 100%;
+        margin-right: 10px;
+    }
+    
+}
+
+/*strat of the skills class*/
+
+.skills .row > div:first-child{
+   padding-left: 100Px;
+   padding-top: 40px;
+}
+
+.skills .row > div:first-child h4{
+   color: var(--gray);
+   margin-bottom: 20Px;
+ }
+
+.skills .row > div:first-child p{
+   font-size: 14px;
+   color: #a2a2a2;
+  }
+  
+.skills .row > div:first-child .btn{
+     padding: 10px 30px !important;
+   }
+
+
+
+
+.skills .row > div:last-child{
+    padding-top: 60px;
+ }
+
+.skills .row > div:last-child h6{
+    margin-bottom: 10Px;
+ }
+
+.skills .row > div:last-child .progress{
+    margin-bottom: 16Px;
+ }
+
+
+ @media (max-width: 768px) { 
+    .skills .row > div:first-child{
+        padding-left: 60px;
+     }
+  }
+
+
+
+
+/*start of the rsume*/
+
+.rsume {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f2f2f1;
+}
+
+.rsume h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rsume p {
+    margin: 0 90px 14px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #919191;
+}
+
+
+.rsume .btn {
+    padding: 10px 40px;
+    margin-top: 30PX;
+}
+
+
+body {
+    height: 4000px;
+}
+
+/*start of the diploma*/
+
+.diploma {
+    border-bottom: solid 1px var(--gray);
+}
+
+.diploma .row > div:first-child {
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.diploma .row > div:first-child h4{
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+
+
+.diploma .row > div:first-child p{
+    color: var(--gray);
+    font-size: 14px;
+}
+
+
+.diploma .row > div:last-child {
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+
+.diploma .row > div:last-child .top {
+    margin-bottom: 36px;
+}
+
+.diploma .row > div:last-child .top h6 {
+    font-weight: bold;
+    color: var(--gray);
+}
+
+.diploma .row > div:last-child .top .text {
+    margin-top: -6px !important;
+}
+
+.diploma .row > div:last-child .secondP {
+    color: var(--gray);
+    margin-bottom: 50Px;
+}
+
+
+.diploma .row > div:last-child .top .btn {
+    pointer-events: none !important;
+    margin-top: -7px;
+    padding: 4px 6px !important;
+}
+
+
+
+.diploma .row > div:last-child .bottom h6 {
+    font-weight: bold;
+    color: var(--gray);
+}
+
+.diploma .row > div:last-child .bottom .text {
+    margin-top: -6px !important;
+}
+
+
+.diploma .row > div:last-child .bottom .btn {
+    pointer-events: none !important;
+    margin-top: -7px;
+    padding: 4px 6px !important;
+}
+
+
+.dexieme {
+    border-bottom: none;
+}
+
+
+/*carousel*/
+
+
+.carousel {
+    position: relative !important;
+    background-color: #f2f2f1;
+    font-family: ;
+}
+
+.carousel-inner {
+    position: absolute;
+    padding: 100px 150px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel-indicators li {
+    background-clip: none !important;
+    border-color: #2ecc71 !important;
+    opacity: 0.3 !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+    border-color: #2ecc71 !important;
+}
+
+.carousel-indicators li.active {
+    background-clip: none !important;
+    background-color: #2ecc71 !important;
+    opacity: 1 !important;
+}
+
+
+@media (max-width: 768px) { 
+    .carousel-inner {
+        position: absolute;
+        padding: 50px 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel-inner p{
+       font-size: 15px;
+    }
+
+
+    .carousel-indicators li {
+        height: 10px !important;
+        width: 10px !important;
+    }
+    
+  }
+
+/*portfoilo*/
+
+.portfolio .row > div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.portfolio {
+    padding: 70px 0 20px;
+}
+
+.portfolio h3{
+    color: var(--gray);
+    font-size: 25Px;
+}
+
+
+.portfolio .paragraph{
+    font-size: 14px;
+    color: #919191;
+    margin: 10px 60px 40Px;
+    line-height: 13px;
+}
+
+.portfolio .row > div{
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    height: 303px;
+    width: 303px;
+    transition: .3s;
+}
+
+
+.portfolio .row > div .overLay {
+    position: absolute;
+    width: 92%;
+    height: 100%;
+    background-color: #00ff37b0;
+    text-align: center;
+    display: none;
+    transition: .3s;
+}
+
+
+.portfolio .row > div .overLay i{
+    color: #f8f9fa !important;
+    line-height: 299px;
+}
+
+.portfolio .row > div:hover .overLay{
+   display: block;
+}
+
+
+
+@media (max-width: 768px) {
+    .portfolio .row > div{
+        margin-bottom: 20px;
+        cursor: pointer;
+        position: relative;
+        height: 303px;
+        width: 400px;
+        margin-left: 80px;
+    }
+
+
+    .portfolio .row > div .overLay {
+        position: absolute;
+        width: 93%;
+        height: 100%;
+        background-color: #00ff37b0;
+        text-align: center;
+        display: none;
+        transition: all .5s ease;
+    }
+   
+
+
+}
+
+
+/*the contact style*/
+
+.contact {
+    padding: 50Px;
+    padding-bottom: 30Px;
+    background-color: #252e30;
+}
+
+
+.contact h4 , span , label {
+    color: #FFF;
+}
+
+.contact h4 {
+    font-size: 20Px;
+}
+
+.contact p {
+    font-size: 12px;
+    margin-right: 50px;
+    margin-top: 30Px;
+}
+
+.contact p , address {
+   color: #6e7070;
+}
+
+
+.contact .row > div:first-child address:nth-child(3){
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.contact .row > div:first-child address:nth-child(4){
+    font-size: 12px;
+    margin-top: 30px;
+}
+ 
+
+.contact .row > div:first-child {
+    padding: 40px 0 0  40px;
+}
+
+
+.contact .row > div:last-child {
+    padding: 40px;
+}
+
+.contact .row > div:last-child label{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.contact .row > div:last-child input[type='text']{
+    width: 320px;
+    height: 34px;
+    background-color: #4b5456 !important;
+    border: none;
+}
+
+.contact .row > div:last-child input[type='text']:focus{
+   color: #FFF;
+   outline: none;
+   padding-left: 6px;
+}
+
+
+textarea:focus{
+    color: #FFF;
+    outline: none;
+    padding-left: 6px;
+ }
+
+textarea {
+    resize: none !important;
+    background-color: #4b5456 !important;
+}
+
+.contact .row > div:last-child .btn{
+    padding: 7px 30px;
+    margin-top: 10px;
+ }
+
+ /*footer*/
+
+ footer {
+     padding: 30Px;
+     background-color: #191f21;
+ }
+
+ footer p {
+     color: #4b5456;
+     text-transform: uppercase;
+     font-weight: 700;
+ }
+
+ footer span {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+footer span i{
+   background-color: #4b5456;
+   border-radius: 50%;
+   padding: 14px;
+   margin-left: 10px;
+   margin-right: 10px;
+   cursor: pointer;
+ }
+
+ footer span i:hover{
+     color: #4b5456;
+    background-color: #fff;
+  }
+
+
+  footer button{
+     border-radius: 50%;
+     font-size: 24px;
+     background: none;
+     border-color: var(--green-color);
+     margin-left: 90%;
+    animation-name: exemple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+
+@keyframes exemple {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+  @media (max-width: 768px) {
+    footer span i{
+        background-color: #4b5456;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+  }
